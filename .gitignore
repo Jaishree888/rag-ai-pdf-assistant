@@ -1,5 +1,12 @@
-.env
-.venv/
+# Python-generated files
 __pycache__/
-.idea/
-qdrant_storage/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+/uploads
+.env
